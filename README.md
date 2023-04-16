@@ -38,6 +38,6 @@ pip install -r requirements.txt
 ## Run Server
 To run the server locally we use the following command:
 ```bash
-python rest_api/manage.py runserver
+python manage.py runserver
 ```
 This will start running the API in the local host on port 8000 (http://localhost:8000/).

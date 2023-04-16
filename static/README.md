@@ -1,0 +1,1 @@
+This is a folder to store all the static files during production.
