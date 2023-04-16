@@ -1,0 +1,35 @@
+### Already in the Database
+POST http://127.0.0.1:8000/blogs/ HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Blog 1",
+    "description": "Este es el primer blog",
+    "published": 1
+}
+
+### Already in the Database
+POST http://127.0.0.1:8000/blogs/ HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Blog 2",
+    "description": "Este es el segundo blog",
+    "published": 0
+}
+
+### Get array of all objects 
+GET http://127.0.0.1:8000/blogs/
+### Get one object
+GET http://127.0.0.1:8000/blogs/2
+
+
+### New Post
+POST http://127.0.0.1:8000/blogs/ HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Blog 3",
+    "description": "Este es el tercer blog",
+    "published": 0
+}

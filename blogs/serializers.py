@@ -5,6 +5,7 @@ class BlogSerializer(serializers.ModelSerializer):
     id = serializers.IntegerField(read_only=True)
     title = serializers.CharField(max_length=70)
     description = serializers.CharField(max_length=200, style={'base_template': 'textarea.html'})
+    published = serializers.BooleanField()
     
     def create(self, validated_data):
         return Blog.objects.create(**validated_data)
