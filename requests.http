@@ -19,7 +19,7 @@ content-type: application/json
 }
 
 ### Get array of all objects 
-GET http://127.0.0.1:8000/blogs/
+GET https://django-rest-9pltqq9kx-gabrielliendo.vercel.app/blogs/
 ### Get one object
 GET http://127.0.0.1:8000/blogs/2
 
